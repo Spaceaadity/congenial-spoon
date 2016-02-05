@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,body {
+	height:100%;
+	margin:0;
+	background-image:url('background2.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	-moz-background-size:cover;
+}
+
+
+p.title {
+	font-family:exotica;
+	font-size:102px;
+	text-align:left;
+	margin-left:25px;
+	margin-right:60px;
+	bottom: auto;
+	color: #F60;
+	margin-bottom: -20px;
+	margin-top: 20px;
+}
+
+p.subtitle {
+	font-family:Existence-Light;
+	font-size:25px;
+	text-align:left;
+	margin-left: 45px;
+	margin-right:auto;
+	color: #F63;
+}
+
+#title {
+    min-height:204px;
+    width:auto;
+    margin:auto;
+background-attachment:fixed;
+background-size:cover;
+-moz-background-size:cover;
+background-colo:#C3C;
+}
+
+
+#menu {
+	width:200px;
+	min-height:auto;
+	float:left;
+	margin-left: -20px;
+	background-colo:#FF0;
+	margin-right:0px;
+}
+
+ul
+{
+list-style-type:none;
+font-family:BPdotsUnicase;
+font-size:18px;
+}
+
+li
+{
+	margin-bottom:5px;
+}
+
+ul.texts
+{
+list-style-type:none;
+font-family:IM FELL Double Pica Pro;
+font-size:28px;
+text-decoration:none;
+}
+
+li.texts
+{
+	margin-bottom:5px;
+}
+
+
+a.button:link,a.button:visited
+{
+display:inline-block;
+width:140px;
+height:35px;
+text-align:center;
+padding:11px;
+text-decoration:none;
+text-transform:uppercase;
+outline: none;
+color: #33F;
+}
+
+a.button:hover,a.button:active
+{
+color: #F60;
+outline: none;
+}
+
+
+
+#content {
+	width:800px;
+	height:%100;
+	float:left;
+	background-colo:#FFF;
+	margin-top:20px;
+	margin-left:40px;
+	margin-bottom:50px;
+}
+
+p.start {
+	font-family:IM FELL Double Pica Pro;
+	font-style:italic;
+	font-size:45px;
+	margin-left:30px;
+	margin-top:20px;
+}
+
+a.welcome:link,a.welcome:visited
+{
+outline: none;
+color:#000;
+text-decoration:none;
+}
+
+a.welcome:hover,a.welcome:active
+{
+	color:#000;
+	outline: none;
+	font-style:italic;
+	
+}
+
+p.texttitle {
+	font-family:IM FELL Double Pica Pro;
+	font-size:54px;
+	font-style:italic;
+	margin-top:-10px;
+	margin-bottom:10px;
+}
+
+p.textcontent {
+	font-family:NixieOne-Regular;
+	font-size: 20px;
+	font-weight: 300;
+	text-align:justify;
+}
+
+p.undertitle {
+	font-family:IM FELL Double Pica Pro;
+	font-size:20px;
+	font-style:italic;
+	margin-left:0px;
+	margin-right:80px;
+	margin-top:20px;
+	text-align:justify;
+}
+
+
+.insidetextimg
+{
+	margin: 30px;
+	border: 10px solid #FFFFFF;
+	float: left;
+	text-align: center;
+	clear: both;
+}	
+
+.insidetextimgright
+{
+	margin: 30px;
+	border: 10px solid #FFFFFF;
+	float: right;
+	text-align: center;
+	clear: both;
+}	
+
+#spacebottompage {
+	height:20px;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

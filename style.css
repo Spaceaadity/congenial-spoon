@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,body {
+    height:100%;
+    margin:0;
+background-image:url('backgroundimage3.jpg');
+background-repeat:no-repeat;
+background-attachment:scroll;
+background-size:cover;
+-moz-background-size:cover;
+}
+
+
+p.title {
+	font-family:exotica;
+	font-size:102px;
+	text-align:left;
+	margin-left:25px;
+	margin-right:60px;
+	bottom: auto;
+	color: #F60;
+	margin-bottom: -20px;
+	margin-top: 20px;
+}
+
+p.subtitle {
+	font-family:Existence-Light;
+	font-size:25px;
+	text-align:left;
+	margin-left: 45px;
+	margin-right:auto;
+	color: #F63;
+}
+
+#title {
+    min-height:204px;
+    width:auto;
+    margin:auto;
+background-attachment:fixed;
+background-size:cover;
+-moz-background-size:cover;
+background-colo:#C3C;
+}
+
+
+#menu {
+	width:200px;
+	min-height:auto;
+	float:left;
+	margin-left: -20px;
+	background-colo:#FF0;
+	margin-right:0px;
+}
+
+ul
+{
+list-style-type:none;
+font-family:BPdotsUnicase;
+font-size:18px;
+}
+
+li
+{
+	margin-bottom:5px;
+}
+
+a.button:link,a.button:visited
+{
+	display:inline-block;
+	width:140px;
+	height:35px;
+	text-align:center;
+	padding:11px;
+	text-decoration:none;
+	text-transform:uppercase;
+	outline: none;
+	color: #3FF;
+}
+
+a.button:hover,a.button:active
+{
+color: #F60;
+outline: none;
+}
+
+
+
+#content {
+	width:650px;
+	height:%100;
+	float:left;
+	background-color:#FFF;
+	margin-top:-10px;
+	margin-left:40px;
+	margin-bottom:50px;
+}
+
+p.start {
+	font-family:IM FELL Double Pica Pro;
+	font-style:italic;
+	font-size:45px;
+	margin-left:30px;
+	margin-top:20px;
+}
+
+p.maintext {
+	font-family:IM FELL Double Pica Pro;
+	font-size:20px;
+	margin-left:100px;
+	margin-right:80px;
+	margin-top:20px;
+	text-align:justify;
+}
+
+a.welcome:link,a.welcome:visited
+{
+font-family:IM FELL Double Pica Pro;
+outline: none;
+color:#000;
+font-size: 20px;
+}
+
+a.welcome:hover,a.welcome:active
+{
+	font-family:IM FELL Double Pica Pro;
+	color:#000;
+	outline: none;
+	font-style:italic;
+	font-size: 20px;
+}
+
+p.texttitle {
+	font-family:IM FELL Double Pica Pro;
+	font-size:54px;
+	font-style:italic;
+	margin-top:-10px;
+	margin-bottom:10px;
+}
+
+
+a.texttitle:hover,a.texttitle:active
+{
+	outline:none;
+	color:#000;
+}
+
+a.texttitle:link,a.texttitle:visited
+{
+	outline:none;
+	color:#000;
+}
+
+p.textcontent {
+	font-family:NixieOne-Regular;
+	font-size: 20px;
+	font-weight: 300;
+	text-align:justify;
+}
+
+.illustration {
+	align:right;
+	margin-right:0px;
+	margin-bottom:0px;
+}
